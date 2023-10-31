@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    background-color: black;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0 50px;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 2px  solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+#nav h1{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#container{
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* ;(to make them side by side) */
+}
+#left{
+    height: 100%;
+    width: 50% ;
+    /* background-color: red; */
+    padding: 100px 50px;
+}
+#left h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height:90px ;
+    text-transform: uppercase;
+}
+#left  h1:nth-last-child(1){
+    margin-left: 30px;
+}
+#left h1 span img{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left:-20px;
+    border: 3px solid #000;
+}
+#left h1 span img :nth-child(1){
+    margin-left: 0;
+}
+#right{
+    height: 100%;
+    width: 50% ;
+    padding: 100px 50px;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+#right img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#over p{
+    font-size: 25px;
+}
+#over h4{
+    font-size: 25px;
+}
+ul {
+
+    list-style-type: square; /* Change bullet point style */
+    list-style-image: url('custom-bullet.png'); /* Use a custom image as the bullet point */
+   font-size: 20px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #050801;
+  }
+  
+  #hover{
+    color: #fff;
+    text-align:center;
+    margin-top: 10px;
+    font-size:75px;
+  }
+  
+  a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+  }
+  
+  .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: row;  
+  }
+  .blue-btn{
+    color: #03e9f4;
+    border: 1.5px solid #03e9f4;
+    border-radius: 7px;  
+  }
+  .blue-btn:hover{
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); 
+  }
